@@ -1,0 +1,8 @@
+biostatistics-incidence-analysis/
+├── data/                 # Raw data (XLSX/CSV) - Use dummy data for public repos
+├── scripts/
+│   ├── 01_survival_km.R  # Kaplan-Meier & Log-Rank analysis
+│   └── 02_timeseries_ccf.R # Stationarity, Decomposition, and Cross-Correlation
+├── figures/              # Exported plots (PNG/PDF)
+├── .gitignore            # Files Git should ignore (e.g., .Rhistory, .RData)
+└── README.md             # Project documentation (The landing page)
